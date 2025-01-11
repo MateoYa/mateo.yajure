@@ -10,7 +10,7 @@ const draw = {
             opacity: 1,
             transition: {
                 pathLength: { delay, type: "spring", duration: 15, bounce: 0 },
-                opacity: { delay, duration: 0.1 },
+                opacity: { delay, duration: 5 },
             },
         }
     },
@@ -39,9 +39,8 @@ export default function PathDrawing() {
                 fill="black"
                 strokeWidth="2"
                 stroke="#1cc7c9"
-                strokeLinecap="non-scaling-stroke"
                 variants={draw}
-                custom={2}
+                custom={0}
 
             />
             {/* <motion.line

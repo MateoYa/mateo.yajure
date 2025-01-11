@@ -5,7 +5,7 @@ const FancyText = () => {
   const [text, setText] = useState("")
   // const [welcome, setWelcome] = useState(false)
   const [fullText, setFullText] = useState(
-      "My name is Mateo Yajure I am a Computer Engineering Student @ Waterloo & a fan of all things puzzles."
+      "Hi my name is Mateo Yajure I am a Computer Engineering Student @ Waterloo & a fan of all things puzzles. My main programming intrests are game dev, web dev and robtics!! "
     )
   const [index, setIndex] = useState(0)
   
@@ -20,7 +20,7 @@ const FancyText = () => {
     }, [index])
   
     return(
-        <h2 className="text-left">{text}</h2>
+        <h2 className="text-left">{text}<span className="text-[#0a0a0a]">{fullText.replace(text, "")}</span></h2>
     )
 }
 export default FancyText;
