@@ -7,7 +7,7 @@ import MYajure from './Myajure';
 
 const header = () => {
   // State variables to manage scroll behavior
-  const [prevScrollpos, setPrevScrollpos] = useState(window.scrollY);
+  const [prevScrollpos, setPrevScrollpos] = useState(0);
 
   const [top, setTop] = useState(0);
   useEffect(() => {
