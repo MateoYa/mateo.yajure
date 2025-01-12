@@ -29,9 +29,15 @@ export default function Experience() {
 
                                 
                             </div>  
-                            <div style={{backgroundColor: "#B5F1F4"}} className="w-[100%]  text-black items-start rounded-[50px] border-solid border-[#000000] border-[3px] h-[105%]" >
+                            <div style={{backgroundColor: "#B5F1F4"}} className="relative w-[100%]  text-black items-start rounded-[50px] border-solid border-[#000000] border-[3px] h-[105%]" >
                                 <h1 className="text-6xl text-center ">Spot Creation Utility</h1>
                                 <h1 className="text-xl text-center ">Spot VM are virtual machines that can get shut down if the market changes in price. Ie if someone is paying more for the vm so this program was deisgn to be able to maintain spots on AWS/GCP/Azure incase they went down. </h1>
+                                <br/>
+                                <div className="absolute inset-x-[45%] inset-y-[91%]">
+                                    <div className="flex justify-center y-space-[-5]">
+                                        <a className="text-center w-100" href={"https://github.com/MateoYa/spot-creation-tool"}><IoLogoGithub size={30}/></a>
+                                    </div>
+                                </div>
                             </div>  
                             <div style={{backgroundColor: "#84DBFF"}} className="relative w-[100%]  text-black items-start rounded-[50px] border-solid border-[#000000] border-[3px] h-[105%]" >
                                 <div className="relative flex justify-center y-space-[-5] top-100">
@@ -52,15 +58,20 @@ export default function Experience() {
                                     <img className="z-[1] relative w-[80%] translate-y-1" src={"/kingdom_project.png"}/>
                                 </div>
                                 <h1 className="text-6xl text-center ">The Kingdom Project</h1>
-                                <h1 className="text-xl text-center ">Effectively a civiliaztion type game except missing some importaint elements that makes it fun. However, the game had generation, building playcement, update time, game cycles, menus, lossing</h1>
+                                <h1 className="text-xl text-center ">Effectively a civiliaztion type game except missing some importaint elements that makes it fun. However, the game had generation, building playcement, update time, game cycles, menus. The Github for this project is curently unavailable. </h1>
                             </div>  
-                            <div style={{backgroundColor: "#84DBFF"}}className="w-[100%]  text-black items-start rounded-[50px] border-solid border-[#000000] border-[3px] h-[105%]" >
+                            <div style={{backgroundColor: "#84DBFF"}}className="relative w-[100%]  text-black items-start rounded-[50px] border-solid border-[#000000] border-[3px] h-[105%]" >
                                 <div className="relative flex justify-center y-space-[-5] top-100">
                                     <img className="z-[1] relative w-[80%] translate-y-1" src={"/intellect_ai_example.png"}/>
                                 </div>
                                 <h1 className="text-6xl text-center ">Intellect.Ai</h1>
                                 <h1 className="text-xl text-center ">I was asked by a startup called intellect.ai to make a few widgets that their developers where struggling with particulary the pie chart which has preportional radius to pie slice. (I am aware that this is a terrible way to represent data but that's besides the point). I made the other 2 moving element indicators on the right by using a function that took an % and put the respective indicator on the corsponding section of the chart. Also the example image is two pages of the webpage combind together</h1>
-                            
+                                <br/>
+                                <div className="absolute inset-x-[45%] inset-y-[91%]">
+                                    <div className="flex justify-center y-space-[-5]">
+                                        <a className="text-center w-100" href={"https://github.com/elianabean/intellect"}><IoLogoGithub size={30}/></a>
+                                    </div>
+                                </div>
                             </div>  
                             <div style={{backgroundColor: "#B5F1F4"}} className="relative w-[100%] text-black items-start rounded-[50px] border-solid border-[#000000] border-[3px] h-[105%]" >
                                 <h1 className="text-6xl text-center ">This Website</h1>
@@ -75,14 +86,23 @@ export default function Experience() {
                         </div>
 
                     </div>  
-                    <div className="grid grid-cols-1 place-items-center items-start content-evenly gap-12 row-auto">
-                        <button  className="bg-blue-500 w-[20%] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                            Button
-                        </button>
+                    <div className="translate-y-[10%] h-[80%]">
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <div className="grid grid-cols-1 place-items-center items-start content-evenly gap-12 row-auto ">
+                            <a href="/yajure_mateo_resume.pdf">
+                                <button  className="bg-[#84DBFF] w-[100%] hover:bg-[#B5F1F4] text-black font-bold text-6xl py-2 px-4 rounded-[15px]">
+                                    Resume
+                                </button>
+                            </a>
+
+                        </div>
                     </div>
 
 
-                    <div id="About" className="translate-y-[10%] h-[80%]">
+
+                    <div id="About" className="translate-y-[5%] h-[80%]">
                         <div className="grid grid-cols-1 md:grid-cols-2 place-items-center items-start content-evenly gap-12 row-auto">
                             <div className="relative flex justify-center top-100 border-solid border-[#000000] border-[3px]">
                                 <img className="z-[1] " src={"https://images.squarespace-cdn.com/content/v1/64d3135815ef857788423e61/f39b48fa-af26-45a5-8d93-68e56d9ca923/Mateo+Y_20240717232733.jpg?format=750w"}/>

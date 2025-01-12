@@ -1,6 +1,9 @@
 'use client';
 import React, { useState, useEffect } from 'react';
-
+import { IoLogoGithub } from "react-icons/io";
+import { FaLinkedin } from "react-icons/fa6";
+import { MdOutlineContactPage } from "react-icons/md";
+import MYajure from './Myajure';
 
 const header = () => {
   // State variables to manage scroll behavior
@@ -40,7 +43,7 @@ const header = () => {
     display: 'block',
     color: '#f2f2f2',
     textAlign: 'center',
-    padding: '15px',
+    padding: '0px',
     textDecoration: 'none',
     fontSize: '17px',
   };
@@ -49,9 +52,9 @@ const header = () => {
     display: 'block',
     color: '#f2f2f2',
     textAlign: 'center',
-    padding: '15px',
+    padding: '1px',
     textDecoration: 'none',
-    fontSize: '17px',
+    fontSize: '1px',
   };
   return (
     <div className='-z-20'>
@@ -63,41 +66,73 @@ const header = () => {
                   transition: 'top 0.3s',
                   zIndex: 100}}>
         <div className="align-end">
-        <a href="#Connect" style={{    float: 'right',
-    display: 'block',
-    color: '#f2f2f2',
-    textAlign: 'center',
-    padding: '15px',
-    textDecoration: 'none',
-    fontSize: '17px',}}>
-          Contact Me 😃
-        </a>
-        <a href="#About" style={{    float: 'right',
-    display: 'block',
-    color: '#f2f2f2',
-    textAlign: 'center',
-    padding: '15px',
-    textDecoration: 'none',
-    fontSize: '17px',}}>
-          About Me
-        </a>
-        <a href="#Projects" style={{    float: 'right',
-    display: 'block',
-    color: '#f2f2f2',
-    textAlign: 'center',
-    padding: '15px',
-    textDecoration: 'none',
-    fontSize: '17px',}}>
-          Projects
-        </a>
+        <div className="">
+          <a href="#Connect" style={{    float: 'right',
+      display: 'block',
+      color: '#f2f2f2',
+      textAlign: 'center',
+      padding: '15px',
+      textDecoration: 'none',
+      fontSize: '14px',}}>
+            Connect
+          </a>
+          {/*TODO change header to change to dropdown when phone size for now just getting rid of about*/}
+          {/* <a href="#About" style={{    float: 'right',
+      display: 'block',
+      color: '#f2f2f2',
+      textAlign: 'center',
+      padding: '15px',
+      textDecoration: 'none',
+      fontSize: '17px',}}>
+            About
+          </a> */}
+          <a href="#Projects" style={{    float: 'right',
+      display: 'block',
+      color: '#f2f2f2',
+      textAlign: 'center',
+      padding: '15px',
+      textDecoration: 'none',
+      fontSize: '14px',}}>
+            Projects
+          </a>
+          <a href="/yajure_mateo_resume.pdf" style={{    float: 'right',
+      display: 'block',
+      color: '#f2f2f2',
+      textAlign: 'center',
+      padding: '15px',
+      textDecoration: 'none',
+      fontSize: '17px',}}>
+            <MdOutlineContactPage size={30}/> 
+          </a>  
+          <a href="https://github.com/MateoYa/" style={{    float: 'right',
+      display: 'block',
+      color: '#f2f2f2',
+      textAlign: 'center',
+      padding: '15px',
+      textDecoration: 'none',
+      fontSize: '17px',}}>
+            <IoLogoGithub size={30}/>
+          </a>
+          <a href="https://www.linkedin.com/in/mateo-yajure/" style={{    float: 'right',
+      display: 'block',
+      color: '#f2f2f2',
+      textAlign: 'center',
+      padding: '15px',
+      textDecoration: 'none',
+      fontSize: '15px',}}>
+            <FaLinkedin size={30}/>
+          </a>
+        </div> 
+        
+
         <a href="#Home" style={{    float: 'left',
     display: 'block',
     color: '#f2f2f2',
     textAlign: 'center',
-    padding: '15px',
+    paddingTop: '15px',
     textDecoration: 'none',
     fontSize: '17px',}}>
-          Mateo Yajure
+          <MYajure/>
         </a>
         
         </div>

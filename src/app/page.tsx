@@ -16,8 +16,8 @@ export default function Home() {
 
       <footer className="row-start-3 flex flex-col gap-3 flex-wrap items-center justify-center">
         <div id="Connect" className="flex flex-col justify-center items-center">
-          <h1 className="text-6xl ">Say Hello</h1>
-          <h1 className="text-xl ">It would be great to hear from you!</h1>
+        <h1 className="text-6xl text-[#1cc7c9] text-center drop-shadow-[-1px_1px_10px_rgba(0,0,0,1)]">Say Hello</h1>
+        <h1 className="text-xl ">It would be great to hear from you!</h1>
         </div>
         
         <div className="flex flex-row gap-3">
