@@ -6,6 +6,10 @@ import Programmer from "./components/Programmer";
 import * as motion from "motion/react-client"
 import LandingPage from "./components/LandingPage";
 import Experience from "./components/Experience";
+import { IoLogoGithub } from "react-icons/io";
+import { FaLinkedin } from "react-icons/fa6";
+import { MdOutlineContactPage } from "react-icons/md";
+import { MdAlternateEmail } from "react-icons/md";
 export default function Home() {
   return (
     <div >
@@ -27,13 +31,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image
-              aria-hidden
-              src="/file.svg"
-              alt="File icon"
-              width={16}
-              height={16}
-            />
+            <IoLogoGithub size={15}/>
             Github
           </a>
           <a
@@ -42,29 +40,17 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image
-              aria-hidden
-              src="/window.svg"
-              alt="Window icon"
-              width={16}
-              height={16}
-            />
+            <FaLinkedin size={15}/>
             LinkedIn
           </a>
           <a
             className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-            href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            href="mailto:mateo.e.yajure@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image
-              aria-hidden
-              src="/globe.svg"
-              alt="Globe icon"
-              width={16}
-              height={16}
-            />
-            Email
+            <MdAlternateEmail size={15}/>
+            mateo.e.yajure@gmail.com
           </a>
           <a
             className="flex items-center gap-2 hover:underline hover:underline-offset-4"
@@ -72,13 +58,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image
-              aria-hidden
-              src="/globe.svg"
-              alt="Globe icon"
-              width={16}
-              height={16}
-            />
+            <MdOutlineContactPage size={15}/>
             Resume
           </a>
         </div>

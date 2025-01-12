@@ -71,9 +71,10 @@ const header = () => {
       display: 'block',
       color: '#f2f2f2',
       textAlign: 'center',
+      paddingTop: '17px',
       padding: '15px',
       textDecoration: 'none',
-      fontSize: '14px',}}>
+      fontSize: '17px',}}>
             Connect
           </a>
           {/*TODO change header to change to dropdown when phone size for now just getting rid of about*/}
@@ -90,16 +91,18 @@ const header = () => {
       display: 'block',
       color: '#f2f2f2',
       textAlign: 'center',
+      paddingTop: '17px',
       padding: '15px',
       textDecoration: 'none',
-      fontSize: '14px',}}>
+      fontSize: '17px',}}>
             Projects
           </a>
           <a href="/yajure_mateo_resume.pdf" style={{    float: 'right',
       display: 'block',
       color: '#f2f2f2',
       textAlign: 'center',
-      padding: '15px',
+      padding: '10px',
+      paddingTop: '15px',
       textDecoration: 'none',
       fontSize: '17px',}}>
             <MdOutlineContactPage size={30}/> 
@@ -108,7 +111,8 @@ const header = () => {
       display: 'block',
       color: '#f2f2f2',
       textAlign: 'center',
-      padding: '15px',
+      padding: '10px',
+      paddingTop: '15px',
       textDecoration: 'none',
       fontSize: '17px',}}>
             <IoLogoGithub size={30}/>
@@ -117,7 +121,8 @@ const header = () => {
       display: 'block',
       color: '#f2f2f2',
       textAlign: 'center',
-      padding: '15px',
+      padding: '10px',
+      paddingTop: '15px',
       textDecoration: 'none',
       fontSize: '15px',}}>
             <FaLinkedin size={30}/>
@@ -131,7 +136,7 @@ const header = () => {
     textAlign: 'center',
     paddingTop: '15px',
     textDecoration: 'none',
-    fontSize: '17px',}}>
+    fontSize: '10x',}}>
           <MYajure/>
         </a>
         

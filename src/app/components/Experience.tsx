@@ -45,6 +45,7 @@ export default function Experience() {
                                 </div>
                                 <h1 className="text-6xl text-center ">Photo Booth App</h1>
                                 <h1 className="text-xl text-center ">This was an app I made in flutter in a really tight timeline in order to be used at a highschool in my areas graduation. I was approuched by Digital Youth Tallent to make this app because their highschooler developers were having difficulty. This was by far the most succesful software project I have ever made being used by more than 70% of the graduating class.</h1>
+                                <br/>
                                 <br/>                                
                                 <div className="absolute inset-x-[45%] inset-y-[91%]">
                                     <div className="flex justify-center y-space-[-5]">
