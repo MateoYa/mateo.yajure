@@ -1,11 +1,12 @@
 'use client';
 import React, { useState, useEffect } from 'react';
+
+
 const header = () => {
   // State variables to manage scroll behavior
-    const [prevScrollpos, setPrevScrollpos] = useState(window.scrollY);
-  
- 
-  const [top, setTop] = useState(-60);
+  const [prevScrollpos, setPrevScrollpos] = useState(window.scrollY);
+
+  const [top, setTop] = useState(0);
   useEffect(() => {
     // Function to handle scroll events
     const handleScroll = () => {
@@ -24,6 +25,7 @@ const header = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, [prevScrollpos]);
+  
   // Styles for the navbar and links
   const navbarStyle = {
     backgroundColor: '#333',
@@ -61,7 +63,7 @@ const header = () => {
                   transition: 'top 0.3s',
                   zIndex: 100}}>
         <div className="align-end">
-        <a href="#contact" style={{    float: 'right',
+        <a href="#Connect" style={{    float: 'right',
     display: 'block',
     color: '#f2f2f2',
     textAlign: 'center',
@@ -69,6 +71,15 @@ const header = () => {
     textDecoration: 'none',
     fontSize: '17px',}}>
           Contact Me 😃
+        </a>
+        <a href="#About" style={{    float: 'right',
+    display: 'block',
+    color: '#f2f2f2',
+    textAlign: 'center',
+    padding: '15px',
+    textDecoration: 'none',
+    fontSize: '17px',}}>
+          About Me
         </a>
         <a href="#Projects" style={{    float: 'right',
     display: 'block',
@@ -79,7 +90,7 @@ const header = () => {
     fontSize: '17px',}}>
           Projects
         </a>
-        <a href="#home" style={{    float: 'left',
+        <a href="#Home" style={{    float: 'left',
     display: 'block',
     color: '#f2f2f2',
     textAlign: 'center',
