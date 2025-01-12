@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from 'react';
 const header = () => {
   // State variables to manage scroll behavior
-  if (typeof window !== "undefined") {
     const [prevScrollpos, setPrevScrollpos] = useState(window.scrollY);
   
  
@@ -53,13 +52,14 @@ const header = () => {
     fontSize: '17px',
   };
   return (
-    <div>
+    <div className='-z-20'>
       <div id="navbar" style={{backgroundColor: '#333',
                   position: 'fixed',
                   top: `${top}px`,
                   width: '100%',
                   display: 'block',
-                  transition: 'top 0.3s',}}>
+                  transition: 'top 0.3s',
+                  zIndex: 100}}>
         <div className="align-end">
         <a href="#contact" style={{    float: 'right',
     display: 'block',
@@ -101,10 +101,6 @@ const header = () => {
         {/* ... Rest of your content ... */}
       </div>
     </div>
-  );
-  }
-  return(
-    <div></div>
   );
 };
 export default header;

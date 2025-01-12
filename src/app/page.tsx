@@ -5,19 +5,13 @@ import FancyText from "./components/FancyText"
 import Programmer from "./components/Programmer";
 import * as motion from "motion/react-client"
 import LandingPage from "./components/LandingPage";
+import Experience from "./components/Experience";
 export default function Home() {
   return (
     <div >
       <Header />
       <LandingPage/>
-      <main className="flex flex-col gap-0 row-start-2 ] items-center bg-[#324A5E]">
-            <h1 className="text-6xl">Experience</h1>
-            <h1 className="text-6xl">Projects</h1>
-            <h1 className="text-6xl">About Me</h1>
-            <h1 className="text-6xl">Contact Me</h1>
-
-      </main>
-
+      <Experience/>
 
 
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
