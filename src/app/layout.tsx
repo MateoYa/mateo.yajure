@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Mateo Yajure",
-  description: "Portfolio for Mateo Yajure Computer Engineering student at Waterloo",
+  description: "Portfolio for Mateo Yajure Computer Engineering student at Waterloo.",
 };
 
 export default function RootLayout({

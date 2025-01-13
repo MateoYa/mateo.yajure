@@ -9,8 +9,8 @@ const draw = {
             pathLength: 0.03,
             opacity: 1,
             transition: {
-                pathLength: { delay, type: "spring", duration: 3, bounce: 0 },
-                opacity: { delay, duration: 3 },
+                pathLength: { delay, type: "spring", duration: 5, bounce: 0 },
+                opacity: { delay, duration: 5 },
             },
         }
     },
@@ -19,7 +19,7 @@ export default function Ellipse() {
     return (
         <motion.svg
         id="Layer_2"
-        viewBox="72 -57 202 118"
+        viewBox="0 0 160 90"
         initial="hidden"
         animate="visible"
       >
@@ -27,10 +27,10 @@ export default function Ellipse() {
           style={{
             fill: "#324A5E",
           }}
-          cx={172}
-          cy={65}
-          rx={120}
-          ry={18}
+          cx={80}
+          cy={135}
+          rx={160}
+          ry={55}
           variants={draw}
           custom={0}
         />

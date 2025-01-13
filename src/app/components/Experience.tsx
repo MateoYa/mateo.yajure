@@ -7,7 +7,7 @@ import { IoLogoGithub } from "react-icons/io";
 import { TbWorld } from "react-icons/tb";
 export default function Experience() {
     return(
-            <div id="Projects"  className="flex flex-col gap-0 row-start-2 items-center space-y-4 bg-[#324A5E]">
+            <div id="Projects"  className=" flex flex-col gap-0 row-start-2 items-center y-translate-100 space-y-4 bg-[#324A5E]">
                 <h1 className="text-6xl text-[#1cc7c9] drop-shadow-[-1px_1px_10px_rgba(0,0,0,1)]">My Experiences</h1>
                 <h1 className="text-xl space-y-10">A collection of some of the projects I have worked on both paid and unpaid.</h1>
                 <div className="w-[90%] lg:w-[85%]">

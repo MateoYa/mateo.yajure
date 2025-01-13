@@ -10,12 +10,16 @@ import { IoLogoGithub } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa6";
 import { MdOutlineContactPage } from "react-icons/md";
 import { MdAlternateEmail } from "react-icons/md";
+import Ellipse from "./components/Ellipse";
 export default function Home() {
   return (
     <div >
       <Header />
       <LandingPage/>
       <Experience/>
+
+
+      
 
 
       <footer className="row-start-3 flex flex-col gap-3 flex-wrap items-center justify-center">

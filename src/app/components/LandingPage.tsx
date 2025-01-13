@@ -11,15 +11,17 @@ import DownArrow from "./DownArrow";
 
 export default function LandingPage() {
     return(
-      <div id="Home" className="flex flex-col gap-40 row-start-2 items-center h-screen  overflow-visible">
+      <div id="Home" style={{height: "93vh"}} className="flex flex-col gap-40 row-start-2 items-center  ">
 
-        <div className="flex flex-col lg:flex-row md:mt-[0%] lg:mt-[15%] gap-5 lg:gap-0 w-[90%] lg:w-[65%] lg:space-x-[5%] items-center justify-end">
+        <div className="flex flex-col md:flex-row md:mt-[0%] md:mt-[35%] lg:mt-[15%] gap-5 lg:gap-0 w-[90%]  lg:w-[65%] lg:space-x-[5%] items-center justify-end">
           <div className="list-inside content-center  text-xl text-center font-[family-name:var(--font-geist-mono)] ">
             <PathDrawing/>
             <FancyText /> 
           </div>
           {/* personalized and animated */}
-            <Programmer/>
+              <Programmer/>
+              
+            
           
           
           {/* <a><Image
@@ -30,7 +32,7 @@ export default function LandingPage() {
             />
           </a> */}
         </div>
-        <div  className="absolute z-[-10] bottom-[-2] lg:bottom-[-60] w-screen invisible lg:visible">
+        <div className="absolute -z-[10] bottom-[0] w-screen overflow-hidden">
             <Ellipse/>
         </div> 
       </div> 
