@@ -102,30 +102,30 @@ const header = () => {
       color: '#f2f2f2',
       textAlign: 'center',
       padding: '10px',
-      paddingTop: '15px',
+      paddingTop: '17px',
       textDecoration: 'none',
       fontSize: '17px',}}>
-            <MdOutlineContactPage size={30}/> 
+            <MdOutlineContactPage size={20}/> 
           </a>  
           <a href="https://github.com/MateoYa/" style={{    float: 'right',
       display: 'block',
       color: '#f2f2f2',
       textAlign: 'center',
       padding: '10px',
-      paddingTop: '15px',
+      paddingTop: '17px',
       textDecoration: 'none',
       fontSize: '17px',}}>
-            <IoLogoGithub size={30}/>
+            <IoLogoGithub size={20}/>
           </a>
           <a href="https://www.linkedin.com/in/mateo-yajure/" style={{    float: 'right',
       display: 'block',
       color: '#f2f2f2',
       textAlign: 'center',
       padding: '10px',
-      paddingTop: '15px',
+      paddingTop: '17px',
       textDecoration: 'none',
       fontSize: '15px',}}>
-            <FaLinkedin size={30}/>
+            <FaLinkedin size={20}/>
           </a>
         </div> 
         
