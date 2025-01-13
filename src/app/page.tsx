@@ -14,7 +14,7 @@ import Ellipse from "./components/Ellipse";
 export default function Home() {
   return (
     <div >
-      <Header />
+      <Header /> 
       <LandingPage/>
       <Experience/>
 
@@ -35,8 +35,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <IoLogoGithub size={15}/>
-            Github
+            <IoLogoGithub size={30}/>
           </a>
           <a
             className="flex items-center gap-2 hover:underline hover:underline-offset-4"
@@ -44,8 +43,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin size={15}/>
-            LinkedIn
+            <FaLinkedin size={30}/>
           </a>
           <a
             className="flex items-center gap-2 hover:underline hover:underline-offset-4"
