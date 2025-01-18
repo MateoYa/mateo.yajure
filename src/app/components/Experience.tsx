@@ -18,7 +18,7 @@ export default function Experience() {
                                     <img className="z-[1] relative w-[80%] translate-y-1" src={"/4421_2024.jpeg"}/>
                                 </div>
                                 <h1 className="text-6xl text-center row-span-2 w-[90%] font-sans">Competitive Robotics</h1>
-                                <h1 className="text-xl text-center w-[90%] font-sans">I competed in the 2022 through 2024 <a href="https://www.firstinspires.org/robotics/frc" className="underline">FIRST Robotics Competition (FRR)</a> as a programmer in team 4421 Forge Robotics. In 2024 the game's objective was to score foam rings into a 1 foot tall goal, 8 feet from the ground. I was the programming lead of our team of 40+ where we developed the ability to calculate the vector required to fire one of these notes into the goal while moving based on our position. 
+                                <h1 className="text-xl text-center w-[90%] font-sans">I competed in the 2022 through 2024 <a href="https://www.firstinspires.org/robotics/frc" className="underline">FIRST Robotics Competition (FRC)</a> as a programmer in team 4421 Forge Robotics. In 2024 the game's objective was to score foam rings into a 1 foot tall goal, 8 feet from the ground. I was the programming lead of our team of 40+ where we developed the ability to calculate the vector required to fire one of these notes into the goal while moving based on our position. 
                                 <br/>
                                 <br/>
                                 </h1>
