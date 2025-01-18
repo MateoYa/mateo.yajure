@@ -11,9 +11,9 @@ import DownArrow from "./DownArrow";
 
 export default function LandingPage() {
     return(
-      <div id="Home" className="flex flex-col h-[100vh] gap-40 row-start-2 items-center  ">
+      <div id="Home" className="flex flex-col h-svh gap-40 row-start-2 items-center  ">
 
-        <div className="flex flex-col md:flex-row mt-[15%] md:mt-[35%] lg:mt-[15%] gap-5 lg:gap-0 w-[90%]  lg:w-[65%] lg:space-x-[5%] items-center justify-end">
+        <div className="flex flex-col md:flex-row mt-[15%] md:mt-[35%] lg:mt-[15%] gap-5 lg:gap-0 w-[95%]  lg:w-[65%] lg:space-x-[5%] items-center justify-end">
           <div className="list-inside content-center  text-xl text-center font-sans ">
             <PathDrawing/>
             <FancyText /> 
