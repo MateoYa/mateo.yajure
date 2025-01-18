@@ -59,7 +59,7 @@ const header = () => {
   return (
     <div className='-z-20'>
       <div id="navbar" style={{backgroundColor: '#333',
-                  position: 'fixed',
+                  position: 'absolute',
                   top: `${top}px`,
                   width: '100%',
                   display: 'block',
