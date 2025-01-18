@@ -64,7 +64,8 @@ const header = () => {
                   width: '100%',
                   display: 'block',
                   transition: 'top 0.3s',
-                  zIndex: 100}}>
+                  zIndex: 100,
+                  overflow: "auto"}}>
         <div className="align-end">
         <div className="">
           <a href="#Connect" style={{    float: 'right',

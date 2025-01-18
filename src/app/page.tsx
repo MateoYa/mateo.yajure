@@ -14,7 +14,7 @@ import Ellipse from "./components/Ellipse";
 export default function Home() {
   return (
     <div >
-      <main className="overflow-hidden w-[100%]">
+      <main className="overflow-clip w-[100%]">
         <LandingPage/>
         <Experience/> 
         <Header /> 
