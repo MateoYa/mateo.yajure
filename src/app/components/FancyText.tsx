@@ -5,7 +5,7 @@ const FancyText = () => {
   const [text, setText] = useState("")
   // const [welcome, setWelcome] = useState(false)
   const [fullText, setFullText] = useState(
-      "Hi my name is Mateo Yajure. I am a Computer Engineering Student at the University of Waterloo, and a fan of all things puzzle. My main programming interests are game dev, web dev and robotics!!"
+      "Hi my name is Mateo Yajure. I am a Computer Engineering Student at the University of Waterloo, and a fan of all things puzzles. My main programming interests are game dev, web dev and robotics!!"
     )
   const [index, setIndex] = useState(0)
   
@@ -18,9 +18,32 @@ const FancyText = () => {
         }, 15)
       }
     }, [index])
+
+
   
     return(
-        <h2 className="text-left font-sans">{text}<span className="text-[#0a0a0a]">{fullText.replace(text, "")}</span></h2>
+        <h2 className="text-left font-sans">{text}<span className="text-[#0a0a0a]">{fullText.replace(text, "")}</span>
+           {index==fullText.length?
+          <div className="absolute bottom-[20%] left-[0] w-[100%] flex justify-center"> 
+              <a href="/yajure_mateo_resume.pdf w-[15%] ">
+                  <button  className="bg-[#84DBFF] hover:bg-[#B5F1F4] text-black font-bold text-6xl py-2 px-4 rounded-[15px]">
+                      Resume
+                  </button>
+              </a> 
+
+          </div>
+          :
+          <div className="absolute bottom-[20%] left-[0] w-[100%] flex justify-center">
+              <a href="/yajure_mateo_resume.pdf">
+                  <button  className="bg-[#0a0a0a] w-[100%] hover:bg-[#0a0a0a] text-[#0a0a0a] font-bold text-6xl py-2 px-4 rounded-[15px]" >
+                      Resume
+                  </button>
+              </a>
+          </div>
+          }
+        </h2>
+       
+        
     )
 }
 export default FancyText;

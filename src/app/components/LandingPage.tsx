@@ -32,6 +32,7 @@ export default function LandingPage() {
             />
           </a> */}
         </div>
+
         <div className="absolute -z-[10]  bottom-[0] w-[100%] overflow-clip">
             <Ellipse/>
         </div> 
