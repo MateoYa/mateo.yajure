@@ -25,7 +25,7 @@ export default function Ellipse() {
       >
         <motion.ellipse
           style={{
-            fill: "#324A5E",
+            fill: "#2c2d2e",
           }}
           cx={80}
           cy={135}

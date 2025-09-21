@@ -57,7 +57,7 @@ const header = () => {
     fontSize: '1px',
   };
   return (
-    <div className='-z-20'>
+    <div className='-z-20 invisible md:visible'>
       <div id="navbar" style={{backgroundColor: '#333',
                   position: 'absolute',
                   top: `${top}px`,
