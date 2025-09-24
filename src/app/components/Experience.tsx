@@ -16,12 +16,13 @@ export default function Experience() {
                             <div className="relative w-full flex flex-col items-center">
                                 <div className="relative w-[97%] flex flex-col items-center">
                                     <div className="w-[90%]">
-                                    <h1 className={`text-3xl text-center w-full font-sans text-[#1cc7c9]`}>Telus</h1>
+                                        
+                                    <h1 className={`text-3xl text-center w-full font-sans text-[#1cc7c9]`}>Telus </h1>
                                     <p className="text-xl text-left w-full font-sans mt-2">
                                         At TELUS, I worked on internal tooling on the System Capability Modernization team with projects for managing and mapping infrastructure.
                                     </p>
-                                    <div className="relative flex flex-col items-start mt-4 w-[90%]">
-                                        <img src="/TELUS_Logo.svg" alt="TELUS Logo" className="relative w-[25%] z-10" />
+                                    <div className="relative flex flex-col items-center mt-4 w-[100%]">
+                                        <img src="/TELUS_Logo.png" alt="TELUS Logo" className="relative w-[25%] z-10" />
                                     </div>
                                     </div>
                                 </div>
@@ -186,7 +187,7 @@ This was an app I made in flutter in a really tight timeline in order to be used
                         </div>
                     </div>  
                     <h1 className="text-3xl text-[#1cc7c9] drop-shadow-[-1px_1px_10px_rgba(0,0,0,1)] font-sans text-center">Some Project Photos</h1>
-                    <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-5">
+                    <div className="grid grid-cols-1 md:grid-cols-5">
                         <div className="relative flex flex-col items-start mt-4 w-[100%]">
                             <img src="/4421_2024.jpeg" alt="Team 4421 in 2024" className="relative w-full z-10" />
                         </div>
