@@ -49,7 +49,6 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <MdAlternateEmail size={15}/>
             mateo.e.yajure@gmail.com
           </a>
           <a
