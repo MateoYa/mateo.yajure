@@ -22,7 +22,7 @@ export default function Experience() {
                                         At TELUS, I worked on internal tooling on the System Capability Modernization team with projects for managing and mapping infrastructure.
                                     </p>
                                     <div className="relative flex flex-col items-center mt-4 w-[100%]">
-                                        <img src="/TELUS_Logo.png" alt="TELUS Logo" className="relative w-[25%] z-10" />
+                                        <img src="/TELUS_Logo.png" alt="TELUS Logo" className="relative w-[15%] z-10" />
                                     </div>
                                     </div>
                                 </div>
