@@ -183,7 +183,7 @@ This was an app I made in flutter in a really tight timeline in order to be used
 
                         </div>
                     </div>  
-                    <h1 className="text-3xl text-[#1cc7c9] drop-shadow-[-1px_1px_10px_rgba(0,0,0,1)] font-sans text-center">Some Project Photo's</h1>
+                    <h1 className="text-3xl text-[#1cc7c9] drop-shadow-[-1px_1px_10px_rgba(0,0,0,1)] font-sans text-center">Some Project Photos</h1>
                     <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-5">
                         <div className="relative flex flex-col items-start mt-4 w-[100%]">
                             <img src="/4421_2024.jpeg" alt="Team 4421 in 2024" className="relative w-full z-10" />

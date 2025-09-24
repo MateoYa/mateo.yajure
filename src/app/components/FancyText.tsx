@@ -24,7 +24,7 @@ const FancyText = () => {
     return(
         <h2 className="text-left font-sans">{text}<span className="text-[#0a0a0a]">{fullText.replace(text, "")}</span>
            {index==fullText.length?
-          <div className="absolute bottom-[20%] left-[0] w-[100%] flex justify-center"> 
+          <div className="absolute  bottom-[6.5%] lg:bottom-[20%] left-[0] w-[100%] flex justify-center"> 
               <a href="/yajure_mateo_resume.pdf">
                   <button  className="bg-[#1cc7c9] hover:bg-[#1cc7c9] text-black font-bold text-6xl py-2 px-4 rounded-[15px]">
                       Resume
@@ -33,7 +33,7 @@ const FancyText = () => {
 
           </div>
           :
-          <div className="absolute bottom-[20%] left-[0] w-[100%] flex justify-center">
+          <div className="absolute bottom-[6.5%] lg:bottom-[20%] left-[0] w-[100%] flex justify-center">
               <a href="/yajure_mateo_resume.pdf">
                   <button  className="bg-[#0a0a0a] w-[100%] hover:bg-[#0a0a0a] text-[#0a0a0a] font-bold text-6xl py-2 px-4 rounded-[15px]" >
                       Resume
