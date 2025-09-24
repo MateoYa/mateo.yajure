@@ -9,7 +9,7 @@ export default function Experience() {
     return(
             <div id="Projects"  className="relative flex flex-col  row-start-0 items-center y-translate-0 space-y-4 bg-[#2c2d2e]">
                 <h1 className="text-5xl text-[#1cc7c9] drop-shadow-[-1px_1px_10px_rgba(0,0,0,1)] font-sans">Experience & Projects</h1>
-                <h1 className="text-xl space-y-10 font-sans">A breif look at the stuff I have worked on.</h1>
+                <h1 className="text-xl space-y-10 font-sans">A brief look at the stuff I have worked on.</h1>
                 <div className="w-[100%] lg:w-[100%]">
                     <div className="flex flex-col flex-wrap">
                         <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-4">
