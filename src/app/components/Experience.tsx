@@ -31,7 +31,7 @@ export default function Experience() {
                                     <div className="w-[90%]">
                                     <h1 className={`text-3xl text-center w-full font-sans text-[#1cc7c9]`}>Photo Booth App</h1>
                                     <p className="text-xl text-left w-full font-sans mt-2">
-                                        I mentored a group of Grade 11 students in building a Flutter photo booth app for their high school graduation. The app took a timed sequence of three photos, combined them into a strip, and let users add stickers. It was used by over 75% of the graduating class (700+ students) to capture and share digital photo strips during the event.
+                                        I was commisioned by <a href="https://www.youthdigitaltalent.com/project-showcase" className="underline">Digital Youth Talent</a> to build a Flutter photo booth app for that they used for high school graduations. The app took a timed sequence of three photos, combined them into a strip, and let users add stickers. It was used by over 75% of the graduating class (700+ students) to capture and share digital photo strips during the event.
                                     </p>
                                     <br/>
                                     <div className="absolute inset-x-[45%] inset-y-[91%]">
@@ -203,7 +203,7 @@ This was an app I made in flutter in a really tight timeline in order to be used
                             <div className="relative flex justify-center top-100 border-solid border-[#000000] border-[3px]">
                                 <img className="z-[1] " src={"https://images.squarespace-cdn.com/content/v1/64d3135815ef857788423e61/f39b48fa-af26-45a5-8d93-68e56d9ca923/Mateo+Y_20240717232733.jpg?format=750w"}/>
                             </div>
-                            <div style={{backgroundColor: "#5f606b"}} className="w-[98%] md:w-[80%] flex justify-center text-black items-start rounded-[50px] h-[100%]" >
+                            <div style={{backgroundColor: "#5f606b"}} className="w-[98%] md:w-[80%] flex justify-center items-start rounded-[50px] h-[100%]" >
                                 <div className="flex justify-center flex-col w-[90%] ">
                                     <h1 className="text-6xl text-[#1cc7c9] text-center drop-shadow-[-1px_1px_10px_rgba(0,0,0,1)] font-sans">About Me</h1>
                                     <h1 className="text-2xl text-left font-sans">Hello my name is Mateo Yajure. I am a second year student enrolled in the Computer Engineering program at the University of Waterloo.<br/><br/> I am a slightly obsessive person about my goals and learning, often driven by a desire to achieve. I have been programming since I was eight years old, and I have helped many elementary and high-school students take their first steps in their coding journeys. < br/><br/> Some of the programming interests I have had the longest are game development and robotics. I was extremely fortunate to be exposed to technology when I was really young and I was fortunate enough to share my passion with younger students who are just like I was. I have been responsible for running 6 workshops over the past few years which has been a rewarding venue to give back to my community and share the joy of code.</h1>

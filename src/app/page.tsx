@@ -20,16 +20,15 @@ export default function Home() {
         <Header /> 
 
       </main>
-      <footer className="row-start-3 flex flex-col gap-3 flex-wrap items-center justify-center">
+      <footer className="row-start-3 flex flex-col gap-3 flex-wrap items-center justify-center gap-1">
         <div id="Connect" className="flex flex-col justify-center items-center">
         <h1 className="text-6xl text-[#1cc7c9] text-center drop-shadow-[-1px_1px_10px_rgba(0,0,0,1)]">Say Hello</h1>
         <h1 className="text-xl ">It would be great to hear from you!</h1>
         </div>
-        
         <div className="flex flex-row gap-3">
           <a
             className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            href="https://github.com/MateoYa/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -37,7 +36,7 @@ export default function Home() {
           </a>
           <a
             className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            href="https://www.linkedin.com/in/mateo-yajure/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -49,11 +48,11 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            mateo.e.yajure@gmail.com
+                        mateo.e.yajure@gmail.com
           </a>
           <a
             className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-            href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            href="/yajure_mateo_resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -61,8 +60,7 @@ export default function Home() {
             Resume
           </a>
         </div>
-        
-      
+      <br/>      
       </footer>
     </div>
   );
