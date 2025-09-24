@@ -34,6 +34,7 @@ export default function Experience() {
                                         I was commisioned by <a href="https://www.youthdigitaltalent.com/project-showcase" className="underline">Digital Youth Talent</a> to build a Flutter photo booth app for that they used for high school graduations. The app took a timed sequence of three photos, combined them into a strip, and let users add stickers. It was used by over 75% of the graduating class (700+ students) to capture and share digital photo strips during the event.
                                     </p>
                                     <br/>
+                                    <br/>
                                     <div className="absolute inset-x-[45%] inset-y-[91%]">
                                         <div className="flex justify-center y-space-[-5]">
                                             <a className="text-center w-100" href={"https://github.com/MateoYa/photobooth"}><IoLogoGithub size={30}/></a>
@@ -56,7 +57,7 @@ export default function Experience() {
                                     {/* <div className="relative flex flex-col items-start mt-4 w-[90%]">
                                         <img src="/TELUS_Logo.svg" alt="TELUS Logo" className="relative w-[25%] z-10" />
                                     </div> */}
-
+                                    <br/>
                                     <div className="absolute inset-x-[45%] inset-y-[91%]">
                                         <div className="flex justify-center y-space-[-5]">
                                             
@@ -74,6 +75,7 @@ export default function Experience() {
                                         I was contracted by Intellect.ai to build custom web widgets their developers were struggling with. This included a complex pie chart with slice radii proportional to values to spec. I also created animated indicators that responded dynamically to percentage inputs. The example image combines two sections of the site for demonstration.
                                     </p>
                                     </div>
+                                    <br/>
                                     <div className="absolute inset-x-[45%] inset-y-[91%]">
                                         <div className="flex justify-center y-space-[-5]">
                                             <a className="text-center w-100" href={"https://github.com/elianabean/intellect"}><IoLogoGithub size={30}/></a>
@@ -207,6 +209,7 @@ This was an app I made in flutter in a really tight timeline in order to be used
                                 <div className="flex justify-center flex-col w-[90%] ">
                                     <h1 className="text-6xl text-[#1cc7c9] text-center drop-shadow-[-1px_1px_10px_rgba(0,0,0,1)] font-sans">About Me</h1>
                                     <h1 className="text-2xl text-left font-sans">Hello my name is Mateo Yajure. I am a second year student enrolled in the Computer Engineering program at the University of Waterloo.<br/><br/> I am a slightly obsessive person about my goals and learning, often driven by a desire to achieve. I have been programming since I was eight years old, and I have helped many elementary and high-school students take their first steps in their coding journeys. < br/><br/> Some of the programming interests I have had the longest are game development and robotics. I was extremely fortunate to be exposed to technology when I was really young and I was fortunate enough to share my passion with younger students who are just like I was. I have been responsible for running 6 workshops over the past few years which has been a rewarding venue to give back to my community and share the joy of code.</h1>
+                                    <br/>
                                 </div>
 
                             </div>
